@@ -1,0 +1,18 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #111;
+}
+.point {
+	position: absolute;
+	top: calc( 50% - 2px );
+	left: calc( 50% - 2px );
+	width: 4px;
+	height: 4px;
+	//border-radius: 2px;
+	transform: rotateZ(45deg);
+	background-color: #555;
+	//box-shadow: 0 0 .5px #fff;
+	cursor: pointer;
+}
